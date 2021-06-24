@@ -60,7 +60,7 @@ color: #474747;
       margin-left:150px;
       top:-90px;
     width: 664px;
-height: 322px;
+height: 432px;
   }
   .first p{
     font-size: 14px;
@@ -269,6 +269,7 @@ color: #A1A1A1;
         }
         .column img{
             position: relative;
+            padding-left:20px;
             top:-90px;
           width:100%;
           margin:unset;
@@ -277,7 +278,7 @@ color: #A1A1A1;
         .first{
             position: absolute;
             top:700px;
-            left:10%;
+            left:5%;
         }
         .first button{
             margin-top:30px;
@@ -307,7 +308,7 @@ color: #A1A1A1;
           height: 60px;
           position: absolute;
           top:200px;
-          left:32%;
+          left:30%;
       }
       .middle{
           margin-top:300px;
@@ -324,21 +325,70 @@ color: #A1A1A1;
       width:100%;
       margin:25px;
       padding-bottom:50px;
+      height:100px;
       box-shadow: none;
+      display:flex;
+      }
+      .card1 h5{
+          width:260px;
+          font-size:12px;
+          line-height: 14px;
+      }
+      .card1 p
+      {
+        font-size: 10px;
+        line-height: 10px;
+        
       }
       .card1 img{
-        width:100%;
-      height: 343px;
+          position: relative;
+          left:250px;
+        width:100px;
+      height:100px;
       }
-      .card1 a{
-          font-size:14px;
-          font-weight: 600;
-          float: left;
+      .more img{
+        position: relative;
+        left:0px;
+      width:100px;
+    height:100px;
+      }
+      .readmore{
+          display: none;
+      }
+.name{   
+position: relative;
+left:-120px;
+font-size:9px;
+Line-height :8.61px;
+}
+.more button{
+    border:none;
+    background-color: white;
+}
+.more p{
+    position: relative;
+    left:-120px;
+    top:-20px;
+    font-size:20px;
+}
+.star button{
+    border: none;
+    background-color: white;
+    padding-left:5px;
+
+}
+      .card-title{
+          padding-left:30px;
+          position: relative;
+          right:150px;
       }
       .card-text{
+          
           margin-bottom:10px;
+          display: none;
       }
       .icons{
+          display: none;
           float:right;
       }
       .icons a{
@@ -346,7 +396,7 @@ color: #A1A1A1;
       }
       .iconvalue{
           text-align: right;
-          display: flex;
+          display: none;
           padding:unset;
           position:relative;
           top:10px;
