@@ -470,6 +470,23 @@
  border: none;
  cursor: pointer;
 }
+.onlymobile{
+    display: block;
+}
+.mobicon {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:black;
+    display: flex;
+    text-align: center;
+    justify-content:space-evenly;
+ }
+ .mobicon img{
+     width:20px;
+     height:40px;
+ }
 
 
 }
