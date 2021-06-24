@@ -154,13 +154,19 @@ color: #4B4B4B;
 }
 .card1 a{
     text-decoration: none;
-    color:#372BFF;
+    color:#6074E3;
     font-size:14px;
     font-weight: 600;
     float: left;
 }
 .card-text{
     margin-bottom:10px;
+}
+.name{
+    display: none;
+}
+.more{
+    display: none;
 }
 .icons{
     float:right;
@@ -216,7 +222,7 @@ color: #A1A1A1;
   
   /* Style the active/current link */
   .pagination a.active {
-    background-color: dodgerblue;
+    background-color: #6074E3;
     color: white;
   }
   
@@ -356,10 +362,14 @@ color: #A1A1A1;
           display: none;
       }
 .name{   
+display: block;
 position: relative;
 left:-120px;
 font-size:9px;
 Line-height :8.61px;
+}
+.more{
+    display: block;
 }
 .more button{
     border:none;
