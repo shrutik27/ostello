@@ -40,8 +40,10 @@
                     <input id="story" class="story"><br>
                 </div>
                 <div class="image">
-                    <span><img src='image.png'><br></span>
-                    <span class="secondimg"><img src="image.png"><br></span>
+                    <input type="file" id="file_upload_id" style="display:none">
+                    <input type="file" id="file_upload_id1" style="display:none">
+                    <span><label></label>&nbsp;&nbsp;<a href="#"><img src="image.png" id="icon_upload" onclick="_upload()"></i></a><br></span>
+                    <span class="secondimg"><label></label>&nbsp;&nbsp;<a href="#"><img src="image.png" id="icon_upload" onclick="_upload1()"></i></a><br></span>    
                 </div>
                 <div class="image1">
                     <span class="normal">Upload Content</span>
@@ -53,6 +55,13 @@
             </form>
         </div>
     </div>
-    
+    <script>
+        function _upload(){
+            document.getElementById('file_upload_id').click();
+        }
+        function _upload1(){
+            document.getElementById('file_upload_id1').click();
+        }
+        </script>
 </body>
 </html>
