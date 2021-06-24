@@ -94,6 +94,13 @@
     padding-bottom:100px;
 }
 
+    .date{
+        position: absolute;
+        top:900px;
+        left:150px;
+        font-weight: 700;
+        font-Size: 35.15px;
+       }
 
 
 @media screen and (max-width:600px) {
@@ -101,6 +108,9 @@
        margin: 0%;
        padding:0%;
    } 
+   .date{
+       display: none;
+   }
 .back-img{
     padding-left:20px;
     padding-top:20px;
@@ -109,32 +119,42 @@
     width:20px;
 }
     .horiline hr{
-        height:2px;
-    width: 40%;
-    margin-left:20px;
+    height:2px;
+    width: 60%;
+    margin-left:10px;
+    position: absolute;
+    top:330px;
     background-color: white;
     border: none;
     }
     .bgtext{
-        margin-left: 0px;
-        margin-top: 30px;
-        padding-left:0px;
-        padding-top:20px;
+        margin-left: -20px;
+        margin-top: -50px;
+        padding-left:30px;
+        padding-top:100px;
         padding-bottom:20px;
         letter-spacing: 2px;
-        width:200px;
-        background-color: rgba(255, 255, 255, 0.77)
+        width:316px;
+        height:508px;
+        background-color: black
         }
         .bgtext h3{
-            font-size:35.64px;
+            font-size:17.54px;
             font-weight: 700;
-            line-height: 37.14px;
-            color:#000000;
+            line-height: 18.28px;
+            color:white;
         }
         
 .profile{
+    width:300px;
     margin-left:20px;
-    margin-top:50px;
+    margin-top:0px;
+    position: absolute;
+    top:200px;
+}
+.profile h5{
+    font-size: 17.92148px;
+    line-height: 8px;
 }
 .profileimage{
     width:70px;
@@ -148,27 +168,30 @@
 .profilename{
     margin-left:20px;
     margin-top:5px;
-    color:#414141;
+    color:white;
 
 }
 
 .profilename p{
-    color:grey;
+    color:white;
     margin-top:10px;
-    font-size:14px;
+    font-size: 12.28098px;
+    line-height: 15px;
 }
 
 .card{
     width:100vw;
     margin-left: 0px;
     margin-top:0px;
+    padding-top:40px;
+    border: none;
 }
 .card .firstp{
     color:#484848;
-    padding-left:0px;
-    padding-right:0px;
-    padding-top:0px;
-    padding-bottom:0px;
+    padding-left:40px;
+    padding-right:40px;
+    padding-top:40px;
+    padding-bottom:40px;
 }
 .card img{
     height:200px;
@@ -176,16 +199,16 @@
 .moreinfo h4{
     color:#7A7A7A;
     Font-size: 24px;
-    padding-top:70px;
+    padding-top:30px;
     text-align:left;
-    padding-left:0px;
+    padding-left:20px;
 }
 .card .secondp{
     color:#484848;
-    padding-left:0px;
-    padding-right:0px;
-    padding-top:30px;
-    padding-bottom:0px;
+    padding-left:40px;
+    padding-right:40px;
+    padding-top:20px;
+    padding-bottom:40px;
 }
 
 
