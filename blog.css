@@ -1,59 +1,72 @@
 *{
-    margin: 0;
-    padding:0;
-}
-body{
-    overflow-x: hidden;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    margin: 0%;
+    padding:0%;
 }
 .onlymobile{
     display: none;
 }
 .background{
     height:500px;
-    width:100%;
-    background-image:url("https://s3-alpha-sig.figma.com/img/8347/1163/27e552a9ec9d908abd3ac8cbbf818edd?Expires=1625443200&Signature=R4i7wmLB4IR1jy6PCHg-vYny8Lx65pSJ8FaoiRFmz2YwIi7-0Rfz3gXFO7eN0T2W0jJNGPwCivq9RsFqjDU7ngeNH4CHSSOrBwyQrcisTi5bxEqvNoVBqKmQo5pOSAvC~5nMoqD4ot8r-2u01BuuJ4FtP6dpdQrG8oBFGYm9JVLFW~UmcatF4ho3SVyIZUHGThRgq2cE5qpbRjYDYV~45g~KucvOvklwZ~NNT3R7RLH5H85DJ3XkEwSs6Uvsfq7ew032O~8NtcziNrBPVrq6mgiVLUhR80mdZZFV-Eu6jjm3WmImJm2AZQmh5O1BizPWLm8L6Xyx~vZrkDRr9BZ8Tg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
-    filter: grayscale(40%);
-    background-repeat: no-repeat;
+    background: url("https://s3-alpha-sig.figma.com/img/8347/1163/27e552a9ec9d908abd3ac8cbbf818edd?Expires=1625443200&Signature=R4i7wmLB4IR1jy6PCHg-vYny8Lx65pSJ8FaoiRFmz2YwIi7-0Rfz3gXFO7eN0T2W0jJNGPwCivq9RsFqjDU7ngeNH4CHSSOrBwyQrcisTi5bxEqvNoVBqKmQo5pOSAvC~5nMoqD4ot8r-2u01BuuJ4FtP6dpdQrG8oBFGYm9JVLFW~UmcatF4ho3SVyIZUHGThRgq2cE5qpbRjYDYV~45g~KucvOvklwZ~NNT3R7RLH5H85DJ3XkEwSs6Uvsfq7ew032O~8NtcziNrBPVrq6mgiVLUhR80mdZZFV-Eu6jjm3WmImJm2AZQmh5O1BizPWLm8L6Xyx~vZrkDRr9BZ8Tg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
 }
-.backicon img{
-    height: 32.00000000000003px;
-    width: 32.00000000000003px;
-    left: 82px;
-    top: 55px;
-    position: absolute;
+.back-img{
+    padding-left:80px;
+    padding-top:55px;
 }
-.horiline{
-height: 0px;
-width: 80%;
-left: 130px;
-top:55px;
-position: absolute;
-    width:60%;
+.horiline hr{
+    height:2px;
+    width: 90%;
+    margin-left:100px;
+    margin-top:-20px;
+    background-color: white;
+    border: none;
 }
+
 .bgtext{
-height: 153px;
-width:900px;
-left: 541px;
-top: 200px;
-padding-left:100px;
-padding-top:30px;
-position: absolute;
-letter-spacing: 2px;
-background-color: rgba(255, 255, 255, 0.77)
+    margin-left:460px;
+    margin-top: 150px;
+    padding-left:100px;
+    padding-top:20px;
+    padding-bottom:20px;
+    letter-spacing: 2px;
+    width:900px;
+    background-color: rgba(255, 255, 255, 0.77)
+    }
+    .bgtext h3{
+        font-size:35.64px;
+        font-weight: 700;
+        line-height: 37.14px;
+        color:#000000;
+    }
+    
+.profile{
+    margin-left:120px;
+    margin-top:50px;
 }
-.bgtext h3{
-    font-size:35.64px;
-    font-weight: 700;
-    line-height: 37.14px;
-    color:#000000;
+.profileimage{
+    width:70px;
+    height:70px;
+    border-radius: 100%;
+    background-image:url("https://2.bp.blogspot.com/-PE3bIv_qjlk/WHuhzylCazI/AAAAAAAAAKY/kVyd9P2u6Bg5hoQK5hzcXKV2i7hcQ-1IQCLcB/s1600/Urdang_passport-size.jpg");
+}
+.profileinfo{
+    display: flex;
+}
+.profilename{
+    margin-left:20px;
+    margin-top:5px;
+    color:#414141;
+
+}
+.profilename p{
+    color:grey;
+    margin-top:10px;
+    font-size:14px;
 }
 .card{
-    height: auto;
     width:900px;
-    left: 541px;
-    top: 400px;
-    position: absolute;
+    margin-left: 541px;
+    margin-top:-250px;
     box-shadow: 2px 2px  5px #888888;
 }
 .card .firstp{
@@ -80,9 +93,47 @@ background-color: rgba(255, 255, 255, 0.77)
     padding-top:30px;
     padding-bottom:100px;
 }
+
+
+
+@media screen and (max-width:600px) {
+   *{
+       margin: 0%;
+       padding:0%;
+   } 
+.back-img{
+    padding-left:20px;
+    padding-top:20px;
+}
+.back-img img{
+    width:20px;
+}
+    .horiline hr{
+        height:2px;
+    width: 40%;
+    margin-left:20px;
+    background-color: white;
+    border: none;
+    }
+    .bgtext{
+        margin-left: 0px;
+        margin-top: 30px;
+        padding-left:0px;
+        padding-top:20px;
+        padding-bottom:20px;
+        letter-spacing: 2px;
+        width:200px;
+        background-color: rgba(255, 255, 255, 0.77)
+        }
+        .bgtext h3{
+            font-size:35.64px;
+            font-weight: 700;
+            line-height: 37.14px;
+            color:#000000;
+        }
+        
 .profile{
-    position: absolute;
-    left:150px;
+    margin-left:20px;
     margin-top:50px;
 }
 .profileimage{
@@ -95,7 +146,7 @@ background-color: rgba(255, 255, 255, 0.77)
     display: flex;
 }
 .profilename{
-    margin-left: 50px;
+    margin-left:20px;
     margin-top:5px;
     color:#414141;
 
@@ -106,168 +157,36 @@ background-color: rgba(255, 255, 255, 0.77)
     margin-top:10px;
     font-size:14px;
 }
-.review{
-    display: flex;
-    font-weight: 500;
-    color:#4E4E4E;
+
+.card{
+    width:100vw;
+    margin-left: 0px;
+    margin-top:0px;
 }
-.parareview{
-    padding-right:30px;
+.card .firstp{
+    color:#484848;
+    padding-left:0px;
+    padding-right:0px;
+    padding-top:0px;
+    padding-bottom:0px;
 }
-.review img{
-    width:16px;
-    margin-left:5px;
+.card img{
+    height:200px;
 }
-#dropdownMenuButton1{
- background-color: white;
- color: black;
- border: none;
+.moreinfo h4{
+    color:#7A7A7A;
+    Font-size: 24px;
+    padding-top:70px;
+    text-align:left;
+    padding-left:0px;
 }
-.date{
-margin-top:200px;
-font-weight:700;
-font-Size :35.15px;
+.card .secondp{
+    color:#484848;
+    padding-left:0px;
+    padding-right:0px;
+    padding-top:30px;
+    padding-bottom:0px;
 }
 
-/* On screens that are 600px or less, set the background color to olive */
-@media screen and (max-width:600px) {
-    .background{
-        height:500px;
-        width:155%;
-        background-image:url("https://s3-alpha-sig.figma.com/img/8347/1163/27e552a9ec9d908abd3ac8cbbf818edd?Expires=1625443200&Signature=R4i7wmLB4IR1jy6PCHg-vYny8Lx65pSJ8FaoiRFmz2YwIi7-0Rfz3gXFO7eN0T2W0jJNGPwCivq9RsFqjDU7ngeNH4CHSSOrBwyQrcisTi5bxEqvNoVBqKmQo5pOSAvC~5nMoqD4ot8r-2u01BuuJ4FtP6dpdQrG8oBFGYm9JVLFW~UmcatF4ho3SVyIZUHGThRgq2cE5qpbRjYDYV~45g~KucvOvklwZ~NNT3R7RLH5H85DJ3XkEwSs6Uvsfq7ew032O~8NtcziNrBPVrq6mgiVLUhR80mdZZFV-Eu6jjm3WmImJm2AZQmh5O1BizPWLm8L6Xyx~vZrkDRr9BZ8Tg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
-        filter: grayscale(40%);
-    }
-    .onlymobile{
-        display: block;
-        margin-left:20%;
-    }
-    .onlymobile button{
-        height: 54.63258743286133px;
-        width: 400px;
-        border-radius: 8.626198768615723px;  
-        margin-bottom: 100px; 
-        Font-size: 25.34px  ;
-        background: linear-gradient(270.65deg, #6074E3 0.55%, rgba(134, 153, 255, 0.64) 123.44%);
-  
-    }
-.bgtext{
-    z-index: 0;
-    height:500px;
-    width:450px;
-    left:0px;
-    top: 0px;
-    padding-left:30px;
-    padding-top:120px;
-    background:rgba(0, 0, 0, 0.76);
-    position: absolute;
-        }
-        
-    .bgtext h3{
-        Font-size: 26.54px;
-        font-weight: 700;
-        line-height: 32.28px;
-        color:white;
-    }
-    .card{
-        height:auto;
-        width:155%;
-        left: 0px;
-        top: 0px;  
-        right:0px;      
-        position:relative;
-        box-shadow: 2px 2px  5px #888888;
-        
-    }
-    
 
- .profile{
-    height: 77.4543228149414px;
-    width: 212.99981689453125px;
-    left: 23px;
-    top: 134px;
-    padding-top: 60px;
-    position: absolute;
-        }
-        .card .firstp{
-            color:#484848;
-            padding-left:60px;
-            padding-right:60px;
-            padding-top:100px;
-            padding-bottom: 50px;
-            font-size:22px;
-        }
-        .card img{
-            height: 300.18373107910156px;
-    
-        }
-        
-    .moreinfo h4{
-        color:#7A7A7A;
-        Font-size: 24px;
-        padding-top:70px;
-        text-align: left;
-        padding-left:60px;
-        font-size:26px;
-    }
-    .card .secondp{
-        color:#484848;
-        padding-left:60px;
-        padding-right:60px;
-        padding-top:30px;
-        padding-bottom:100px;
-    }
-    
-    .card .secondp{
-        color:#484848;
-        padding-left:60px;
-        padding-right:60px;
-        padding-top:30px;
-        padding-bottom:100px;
-        font-size:22px;
-    }
-    .profile{
-        position: absolute;
-        left:30px;
-        width:450px;
-        margin-top:50px;
-    }
-    .profileimage{
-        width:90px;
-        height:90px;
-        border-radius: 100%;
-        background-image:url("https://2.bp.blogspot.com/-PE3bIv_qjlk/WHuhzylCazI/AAAAAAAAAKY/kVyd9P2u6Bg5hoQK5hzcXKV2i7hcQ-1IQCLcB/s1600/Urdang_passport-size.jpg");
-    }
-    .profileinfo{
-        display: flex;
-    }
-    .profilename{
-        margin-left:30px;
-        margin-top:5px;
-        color:white;
-    
-    }
-    
-    .profilename p{
-        color:#DEDEDE;
-        margin-top:10px;
-        font-size:14px;
-    }
-    .review{
-        display: flex;
-        font-weight: 400;
-        Font-size: 15.72px;
-        color:white;
-    }
-    .parareview{
-        padding-right:30px;
-    }
-    .review img{
-        width:16px;
-        margin-left:5px;
-    }
-    
-    .date{
-    display: block;
-    }
-            
 }
